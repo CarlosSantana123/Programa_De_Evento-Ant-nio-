@@ -29,7 +29,14 @@ namespace Programa_De_Evento__Antônio_
 
         private void entrar_button_Click(object sender, EventArgs e)
         {
-
+            if(usuario_textbox.Text == "admin" && senha_textbox.Text == "123")
+            {
+                MessageBox.Show("FOI!");
+            }
+            else
+            {
+                MessageBox.Show("Erro! Usuário/Senha incorretos");
+            }
         }
     }
 }

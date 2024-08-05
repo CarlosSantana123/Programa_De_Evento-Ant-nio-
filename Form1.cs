@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Programa_De_Evento__Antônio_
 {
-    public partial class Form1 : Form
+    public partial class Tela_Inicial : Form
     {
-        public Form1()
+        public Tela_Inicial()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Tela_Ajuda().Show();
+        }
+
+        private void entrar_button_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

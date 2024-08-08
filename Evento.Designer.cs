@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.Orçamento = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.orcamento_txtbox = new System.Windows.Forms.TextBox();
             this.atrações = new System.Windows.Forms.Label();
             this.Nome_evento = new System.Windows.Forms.Label();
             this.Hora = new System.Windows.Forms.Label();
@@ -37,13 +37,13 @@
             this.Pessoas = new System.Windows.Forms.Label();
             this.Local = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.hora_txtbox = new System.Windows.Forms.TextBox();
+            this.nomeEvento_txtbox = new System.Windows.Forms.TextBox();
+            this.numeroPessoas_txtbox = new System.Windows.Forms.TextBox();
+            this.data_txtbox = new System.Windows.Forms.TextBox();
+            this.local_txtbox = new System.Windows.Forms.TextBox();
+            this.fornecedor_txtbox = new System.Windows.Forms.TextBox();
+            this.Atracao_txtbox = new System.Windows.Forms.TextBox();
             this.criarEvento_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,13 +57,13 @@
             this.Orçamento.TabIndex = 0;
             this.Orçamento.Text = "Orçamento:";
             // 
-            // textBox1
+            // orcamento_txtbox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(22, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 27);
-            this.textBox1.TabIndex = 1;
+            this.orcamento_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orcamento_txtbox.Location = new System.Drawing.Point(22, 45);
+            this.orcamento_txtbox.Name = "orcamento_txtbox";
+            this.orcamento_txtbox.Size = new System.Drawing.Size(258, 27);
+            this.orcamento_txtbox.TabIndex = 1;
             // 
             // atrações
             // 
@@ -135,61 +135,61 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Fornecedor:";
             // 
-            // textBox2
+            // hora_txtbox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(443, 228);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(238, 27);
-            this.textBox2.TabIndex = 10;
+            this.hora_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora_txtbox.Location = new System.Drawing.Point(443, 228);
+            this.hora_txtbox.Name = "hora_txtbox";
+            this.hora_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.hora_txtbox.TabIndex = 10;
             // 
-            // textBox3
+            // nomeEvento_txtbox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(443, 134);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(238, 27);
-            this.textBox3.TabIndex = 11;
+            this.nomeEvento_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomeEvento_txtbox.Location = new System.Drawing.Point(443, 134);
+            this.nomeEvento_txtbox.Name = "nomeEvento_txtbox";
+            this.nomeEvento_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.nomeEvento_txtbox.TabIndex = 11;
             // 
-            // textBox4
+            // numeroPessoas_txtbox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(24, 329);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(256, 27);
-            this.textBox4.TabIndex = 12;
+            this.numeroPessoas_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numeroPessoas_txtbox.Location = new System.Drawing.Point(24, 329);
+            this.numeroPessoas_txtbox.Name = "numeroPessoas_txtbox";
+            this.numeroPessoas_txtbox.Size = new System.Drawing.Size(256, 27);
+            this.numeroPessoas_txtbox.TabIndex = 12;
             // 
-            // textBox5
+            // data_txtbox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(22, 231);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(258, 27);
-            this.textBox5.TabIndex = 13;
+            this.data_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.data_txtbox.Location = new System.Drawing.Point(22, 231);
+            this.data_txtbox.Name = "data_txtbox";
+            this.data_txtbox.Size = new System.Drawing.Size(258, 27);
+            this.data_txtbox.TabIndex = 13;
             // 
-            // textBox6
+            // local_txtbox
             // 
-            this.textBox6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(22, 134);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(258, 27);
-            this.textBox6.TabIndex = 14;
+            this.local_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.local_txtbox.Location = new System.Drawing.Point(22, 134);
+            this.local_txtbox.Name = "local_txtbox";
+            this.local_txtbox.Size = new System.Drawing.Size(258, 27);
+            this.local_txtbox.TabIndex = 14;
             // 
-            // textBox7
+            // fornecedor_txtbox
             // 
-            this.textBox7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(443, 45);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(238, 27);
-            this.textBox7.TabIndex = 15;
+            this.fornecedor_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fornecedor_txtbox.Location = new System.Drawing.Point(443, 45);
+            this.fornecedor_txtbox.Name = "fornecedor_txtbox";
+            this.fornecedor_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.fornecedor_txtbox.TabIndex = 15;
             // 
-            // textBox8
+            // Atracao_txtbox
             // 
-            this.textBox8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(443, 329);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(238, 27);
-            this.textBox8.TabIndex = 16;
+            this.Atracao_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Atracao_txtbox.Location = new System.Drawing.Point(443, 329);
+            this.Atracao_txtbox.Name = "Atracao_txtbox";
+            this.Atracao_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.Atracao_txtbox.TabIndex = 16;
             // 
             // criarEvento_button
             // 
@@ -209,13 +209,13 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(708, 444);
             this.Controls.Add(this.criarEvento_button);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Atracao_txtbox);
+            this.Controls.Add(this.fornecedor_txtbox);
+            this.Controls.Add(this.local_txtbox);
+            this.Controls.Add(this.data_txtbox);
+            this.Controls.Add(this.numeroPessoas_txtbox);
+            this.Controls.Add(this.nomeEvento_txtbox);
+            this.Controls.Add(this.hora_txtbox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Local);
             this.Controls.Add(this.Pessoas);
@@ -223,7 +223,7 @@
             this.Controls.Add(this.Hora);
             this.Controls.Add(this.Nome_evento);
             this.Controls.Add(this.atrações);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.orcamento_txtbox);
             this.Controls.Add(this.Orçamento);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -237,7 +237,7 @@
         #endregion
 
         private System.Windows.Forms.Label Orçamento;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox orcamento_txtbox;
         private System.Windows.Forms.Label atrações;
         private System.Windows.Forms.Label Nome_evento;
         private System.Windows.Forms.Label Hora;
@@ -245,13 +245,13 @@
         private System.Windows.Forms.Label Pessoas;
         private System.Windows.Forms.Label Local;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox hora_txtbox;
+        private System.Windows.Forms.TextBox nomeEvento_txtbox;
+        private System.Windows.Forms.TextBox numeroPessoas_txtbox;
+        private System.Windows.Forms.TextBox data_txtbox;
+        private System.Windows.Forms.TextBox local_txtbox;
+        private System.Windows.Forms.TextBox fornecedor_txtbox;
+        private System.Windows.Forms.TextBox Atracao_txtbox;
         private System.Windows.Forms.Button criarEvento_button;
     }
 }

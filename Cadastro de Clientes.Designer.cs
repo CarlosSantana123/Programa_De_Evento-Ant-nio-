@@ -46,7 +46,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(445, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 51);
@@ -57,7 +57,7 @@
             // 
             // criar_btn
             // 
-            this.criar_btn.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.criar_btn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.criar_btn.Location = new System.Drawing.Point(28, 352);
             this.criar_btn.Name = "criar_btn";
             this.criar_btn.Size = new System.Drawing.Size(126, 51);
@@ -69,11 +69,11 @@
             // cnpjj
             // 
             this.cnpjj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cnpjj.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpjj.Location = new System.Drawing.Point(376, 246);
+            this.cnpjj.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cnpjj.Location = new System.Drawing.Point(376, 228);
             this.cnpjj.Mask = "99,999,999/0009-99";
             this.cnpjj.Name = "cnpjj";
-            this.cnpjj.Size = new System.Drawing.Size(182, 29);
+            this.cnpjj.Size = new System.Drawing.Size(182, 26);
             this.cnpjj.TabIndex = 136;
             this.cnpjj.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Mskcnpjj_MaskInputRejected);
             // 
@@ -81,71 +81,71 @@
             // 
             this.cnpj.AutoSize = true;
             this.cnpj.BackColor = System.Drawing.Color.Transparent;
-            this.cnpj.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.cnpj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cnpj.Location = new System.Drawing.Point(370, 204);
             this.cnpj.Name = "cnpj";
-            this.cnpj.Size = new System.Drawing.Size(93, 33);
+            this.cnpj.Size = new System.Drawing.Size(56, 21);
             this.cnpj.TabIndex = 135;
             this.cnpj.Text = "CNPJ:";
             // 
             // DNN
             // 
             this.DNN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DNN.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DNN.Location = new System.Drawing.Point(376, 80);
+            this.DNN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DNN.Location = new System.Drawing.Point(376, 68);
             this.DNN.Mask = "(99) 0000-0000";
             this.DNN.Name = "DNN";
-            this.DNN.Size = new System.Drawing.Size(182, 29);
+            this.DNN.Size = new System.Drawing.Size(182, 26);
             this.DNN.TabIndex = 134;
             // 
             // cpff
             // 
             this.cpff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpff.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cpff.Location = new System.Drawing.Point(376, 145);
+            this.cpff.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpff.Location = new System.Drawing.Point(376, 135);
             this.cpff.Mask = "999,999,999-99";
             this.cpff.Name = "cpff";
-            this.cpff.Size = new System.Drawing.Size(182, 29);
+            this.cpff.Size = new System.Drawing.Size(182, 26);
             this.cpff.TabIndex = 133;
             // 
             // telee
             // 
             this.telee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.telee.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.telee.Location = new System.Drawing.Point(46, 246);
+            this.telee.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.telee.Location = new System.Drawing.Point(46, 228);
             this.telee.Mask = "00/00/0000";
             this.telee.Name = "telee";
-            this.telee.Size = new System.Drawing.Size(157, 29);
+            this.telee.Size = new System.Drawing.Size(157, 26);
             this.telee.TabIndex = 132;
             this.telee.ValidatingType = typeof(System.DateTime);
             // 
             // tele
             // 
             this.tele.AutoSize = true;
-            this.tele.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.tele.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tele.Location = new System.Drawing.Point(370, 44);
             this.tele.Name = "tele";
-            this.tele.Size = new System.Drawing.Size(135, 33);
+            this.tele.Size = new System.Drawing.Size(80, 21);
             this.tele.TabIndex = 131;
             this.tele.Text = "Telefone:";
             // 
             // CPF
             // 
             this.CPF.AutoSize = true;
-            this.CPF.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.CPF.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CPF.Location = new System.Drawing.Point(370, 111);
             this.CPF.Name = "CPF";
-            this.CPF.Size = new System.Drawing.Size(73, 33);
+            this.CPF.Size = new System.Drawing.Size(44, 21);
             this.CPF.TabIndex = 130;
             this.CPF.Text = "CPF:";
             // 
             // DN
             // 
             this.DN.AutoSize = true;
-            this.DN.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.DN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DN.Location = new System.Drawing.Point(40, 177);
             this.DN.Name = "DN";
-            this.DN.Size = new System.Drawing.Size(181, 66);
+            this.DN.Size = new System.Drawing.Size(108, 42);
             this.DN.TabIndex = 129;
             this.DN.Text = "Data de \r\nNascimento:";
             // 
@@ -153,7 +153,7 @@
             // 
             this.repree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.repree.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.repree.Location = new System.Drawing.Point(46, 145);
+            this.repree.Location = new System.Drawing.Point(46, 135);
             this.repree.Name = "repree";
             this.repree.Size = new System.Drawing.Size(210, 29);
             this.repree.TabIndex = 128;
@@ -161,20 +161,20 @@
             // repre
             // 
             this.repre.AutoSize = true;
-            this.repre.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.repre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.repre.Location = new System.Drawing.Point(40, 111);
             this.repre.Name = "repre";
-            this.repre.Size = new System.Drawing.Size(216, 33);
+            this.repre.Size = new System.Drawing.Size(131, 21);
             this.repre.TabIndex = 127;
             this.repre.Text = "Representante:";
             // 
             // nome
             // 
             this.nome.AutoSize = true;
-            this.nome.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.nome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nome.Location = new System.Drawing.Point(40, 44);
             this.nome.Name = "nome";
-            this.nome.Size = new System.Drawing.Size(104, 33);
+            this.nome.Size = new System.Drawing.Size(61, 21);
             this.nome.TabIndex = 126;
             this.nome.Text = "Nome:";
             // 
@@ -182,7 +182,7 @@
             // 
             this.noome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.noome.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noome.Location = new System.Drawing.Point(45, 80);
+            this.noome.Location = new System.Drawing.Point(45, 68);
             this.noome.Name = "noome";
             this.noome.Size = new System.Drawing.Size(211, 29);
             this.noome.TabIndex = 125;
@@ -191,6 +191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(599, 447);
             this.Controls.Add(this.button1);
@@ -207,8 +208,10 @@
             this.Controls.Add(this.repre);
             this.Controls.Add(this.nome);
             this.Controls.Add(this.noome);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Cadastro_de_Clientes";
-            this.Text = "Cadastro_de_Clientes";
+            this.Text = "Cadastro de Clientes";
             this.Load += new System.EventHandler(this.Cadastro_de_Clientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

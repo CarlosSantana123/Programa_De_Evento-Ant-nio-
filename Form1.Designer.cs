@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.entrar_button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,6 +125,17 @@
             this.entrar_button.UseVisualStyleBackColor = true;
             this.entrar_button.Click += new System.EventHandler(this.entrar_button_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(259, 375);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 51);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Criar conta";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Tela_Inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,6 +143,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(645, 459);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.entrar_button);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.senha_textbox);
@@ -161,6 +174,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button entrar_button;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,7 @@ namespace Programa_De_Evento__Antônio_
         private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new Tela_Ajuda().Show();
+            Hide();
         }
 
         private void entrar_button_Click(object sender, EventArgs e)
@@ -37,6 +39,12 @@ namespace Programa_De_Evento__Antônio_
             {
                 MessageBox.Show("Erro! Usuário/Senha incorretos");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Cadastro_de_Clientes().Show();
+            Hide();
         }
     }
 }

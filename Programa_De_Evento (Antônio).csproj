@@ -101,6 +101,12 @@
     <Compile Include="Cadastro de Clientes.Designer.cs">
       <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Evento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evento.Designer.cs">
+      <DependentUpon>Evento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="Cadastro de Clientes.resx">
       <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evento.resx">
+      <DependentUpon>Evento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

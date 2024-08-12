@@ -260,6 +260,7 @@
             this.Controls.Add(this.atrações);
             this.Controls.Add(this.orcamentoAdmin_txtbox);
             this.Controls.Add(this.Orçamento);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Evento_ADMIN_";
             this.Text = "Eventos (ADMIN)";
             this.ResumeLayout(false);

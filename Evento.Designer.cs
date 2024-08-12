@@ -225,6 +225,7 @@
             this.Controls.Add(this.atrações);
             this.Controls.Add(this.orcamento_txtbox);
             this.Controls.Add(this.Orçamento);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Evento";

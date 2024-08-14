@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Xsl;
 
 namespace Programa_De_Evento__Antônio_
 {
@@ -37,14 +38,20 @@ namespace Programa_De_Evento__Antônio_
             }
             else
             {
-                MessageBox.Show("Erro! Usuário/Senha incorretos");
+                new MENUSTRIP_CLIENTE_().Show();
             }
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             new Cadastro_de_Clientes().Show();
             Hide();
+        }
+
+        private void usuario_textbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

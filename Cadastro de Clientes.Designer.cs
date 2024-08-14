@@ -97,6 +97,7 @@
             this.DNN.Name = "DNN";
             this.DNN.Size = new System.Drawing.Size(182, 27);
             this.DNN.TabIndex = 134;
+            this.DNN.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.DNN_MaskInputRejected);
             // 
             // cpff
             // 

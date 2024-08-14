@@ -86,6 +86,7 @@
             this.usuario_textbox.Name = "usuario_textbox";
             this.usuario_textbox.Size = new System.Drawing.Size(265, 20);
             this.usuario_textbox.TabIndex = 3;
+            this.usuario_textbox.TextChanged += new System.EventHandler(this.usuario_textbox_TextChanged);
             // 
             // senha_textbox
             // 

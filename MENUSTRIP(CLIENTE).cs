@@ -21,5 +21,15 @@ namespace Programa_De_Evento__Antônio_
         {
 
         }
+
+        private void criarEventoNovoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new Evento().Show();
+        }
+
+        private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Tela_Ajuda().Show();
+        }
     }
 }

@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Programa_De_Evento__Antônio_
 {
-    public partial class Tela_Ajuda : Form
+    public partial class MENUSTRIP_ADMIN_ : Form
     {
-        public Tela_Ajuda()
+        public MENUSTRIP_ADMIN_()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            new Tela_Inicial().Show();
-
-            Close();
         }
     }
 }

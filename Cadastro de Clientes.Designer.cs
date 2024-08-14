@@ -69,11 +69,11 @@
             // cnpjj
             // 
             this.cnpjj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cnpjj.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cnpjj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cnpjj.Location = new System.Drawing.Point(367, 228);
             this.cnpjj.Mask = "99,999,999/0009-99";
             this.cnpjj.Name = "cnpjj";
-            this.cnpjj.Size = new System.Drawing.Size(182, 26);
+            this.cnpjj.Size = new System.Drawing.Size(182, 27);
             this.cnpjj.TabIndex = 136;
             this.cnpjj.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Mskcnpjj_MaskInputRejected);
             // 
@@ -91,31 +91,31 @@
             // DNN
             // 
             this.DNN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DNN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DNN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DNN.Location = new System.Drawing.Point(367, 68);
             this.DNN.Mask = "(99) 0000-0000";
             this.DNN.Name = "DNN";
-            this.DNN.Size = new System.Drawing.Size(182, 26);
+            this.DNN.Size = new System.Drawing.Size(182, 27);
             this.DNN.TabIndex = 134;
             // 
             // cpff
             // 
             this.cpff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpff.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpff.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpff.Location = new System.Drawing.Point(367, 135);
             this.cpff.Mask = "999,999,999-99";
             this.cpff.Name = "cpff";
-            this.cpff.Size = new System.Drawing.Size(182, 26);
+            this.cpff.Size = new System.Drawing.Size(182, 27);
             this.cpff.TabIndex = 133;
             // 
             // telee
             // 
             this.telee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.telee.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.telee.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.telee.Location = new System.Drawing.Point(46, 228);
             this.telee.Mask = "00/00/0000";
             this.telee.Name = "telee";
-            this.telee.Size = new System.Drawing.Size(102, 26);
+            this.telee.Size = new System.Drawing.Size(102, 27);
             this.telee.TabIndex = 132;
             this.telee.ValidatingType = typeof(System.DateTime);
             // 

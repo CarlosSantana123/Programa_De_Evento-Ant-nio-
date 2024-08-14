@@ -53,7 +53,7 @@
             // criarEventoAdmin_button
             // 
             this.criarEventoAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.criarEventoAdmin_button.Location = new System.Drawing.Point(204, 391);
+            this.criarEventoAdmin_button.Location = new System.Drawing.Point(142, 390);
             this.criarEventoAdmin_button.Name = "criarEventoAdmin_button";
             this.criarEventoAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.criarEventoAdmin_button.TabIndex = 34;
@@ -63,7 +63,7 @@
             // atracaoAdmin_txtbox
             // 
             this.atracaoAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.atracaoAdmin_txtbox.Location = new System.Drawing.Point(494, 328);
+            this.atracaoAdmin_txtbox.Location = new System.Drawing.Point(432, 327);
             this.atracaoAdmin_txtbox.Name = "atracaoAdmin_txtbox";
             this.atracaoAdmin_txtbox.Size = new System.Drawing.Size(238, 27);
             this.atracaoAdmin_txtbox.TabIndex = 33;
@@ -71,7 +71,7 @@
             // fornecedorAdmin_txtbox
             // 
             this.fornecedorAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fornecedorAdmin_txtbox.Location = new System.Drawing.Point(494, 44);
+            this.fornecedorAdmin_txtbox.Location = new System.Drawing.Point(432, 43);
             this.fornecedorAdmin_txtbox.Name = "fornecedorAdmin_txtbox";
             this.fornecedorAdmin_txtbox.Size = new System.Drawing.Size(238, 27);
             this.fornecedorAdmin_txtbox.TabIndex = 32;
@@ -79,7 +79,7 @@
             // localAdmin_txtbox
             // 
             this.localAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.localAdmin_txtbox.Location = new System.Drawing.Point(73, 133);
+            this.localAdmin_txtbox.Location = new System.Drawing.Point(11, 132);
             this.localAdmin_txtbox.Name = "localAdmin_txtbox";
             this.localAdmin_txtbox.Size = new System.Drawing.Size(258, 27);
             this.localAdmin_txtbox.TabIndex = 31;
@@ -87,7 +87,7 @@
             // dataAdmin_txtbox
             // 
             this.dataAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataAdmin_txtbox.Location = new System.Drawing.Point(73, 230);
+            this.dataAdmin_txtbox.Location = new System.Drawing.Point(11, 229);
             this.dataAdmin_txtbox.Name = "dataAdmin_txtbox";
             this.dataAdmin_txtbox.Size = new System.Drawing.Size(258, 27);
             this.dataAdmin_txtbox.TabIndex = 30;
@@ -95,7 +95,7 @@
             // numAdmin_txtbox
             // 
             this.numAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numAdmin_txtbox.Location = new System.Drawing.Point(75, 328);
+            this.numAdmin_txtbox.Location = new System.Drawing.Point(13, 327);
             this.numAdmin_txtbox.Name = "numAdmin_txtbox";
             this.numAdmin_txtbox.Size = new System.Drawing.Size(256, 27);
             this.numAdmin_txtbox.TabIndex = 29;
@@ -103,7 +103,7 @@
             // nome_eventoAdmin_txtbox
             // 
             this.nome_eventoAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome_eventoAdmin_txtbox.Location = new System.Drawing.Point(494, 133);
+            this.nome_eventoAdmin_txtbox.Location = new System.Drawing.Point(432, 132);
             this.nome_eventoAdmin_txtbox.Name = "nome_eventoAdmin_txtbox";
             this.nome_eventoAdmin_txtbox.Size = new System.Drawing.Size(238, 27);
             this.nome_eventoAdmin_txtbox.TabIndex = 28;
@@ -111,7 +111,7 @@
             // horaAdmin_txtBox
             // 
             this.horaAdmin_txtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.horaAdmin_txtBox.Location = new System.Drawing.Point(494, 227);
+            this.horaAdmin_txtBox.Location = new System.Drawing.Point(432, 226);
             this.horaAdmin_txtBox.Name = "horaAdmin_txtBox";
             this.horaAdmin_txtBox.Size = new System.Drawing.Size(238, 27);
             this.horaAdmin_txtBox.TabIndex = 27;
@@ -120,7 +120,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(491, 20);
+            this.label1.Location = new System.Drawing.Point(429, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 21);
             this.label1.TabIndex = 26;
@@ -130,7 +130,7 @@
             // 
             this.Local.AutoSize = true;
             this.Local.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Local.Location = new System.Drawing.Point(72, 109);
+            this.Local.Location = new System.Drawing.Point(16, 108);
             this.Local.Name = "Local";
             this.Local.Size = new System.Drawing.Size(55, 21);
             this.Local.TabIndex = 25;
@@ -140,7 +140,7 @@
             // 
             this.Pessoas.AutoSize = true;
             this.Pessoas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pessoas.Location = new System.Drawing.Point(72, 304);
+            this.Pessoas.Location = new System.Drawing.Point(10, 303);
             this.Pessoas.Name = "Pessoas";
             this.Pessoas.Size = new System.Drawing.Size(119, 21);
             this.Pessoas.TabIndex = 24;
@@ -150,7 +150,7 @@
             // 
             this.Data.AutoSize = true;
             this.Data.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Data.Location = new System.Drawing.Point(72, 206);
+            this.Data.Location = new System.Drawing.Point(16, 205);
             this.Data.Name = "Data";
             this.Data.Size = new System.Drawing.Size(55, 21);
             this.Data.TabIndex = 23;
@@ -160,7 +160,7 @@
             // 
             this.Hora.AutoSize = true;
             this.Hora.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hora.Location = new System.Drawing.Point(491, 206);
+            this.Hora.Location = new System.Drawing.Point(429, 205);
             this.Hora.Name = "Hora";
             this.Hora.Size = new System.Drawing.Size(51, 21);
             this.Hora.TabIndex = 22;
@@ -170,7 +170,7 @@
             // 
             this.Nome_evento.AutoSize = true;
             this.Nome_evento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_evento.Location = new System.Drawing.Point(491, 109);
+            this.Nome_evento.Location = new System.Drawing.Point(429, 108);
             this.Nome_evento.Name = "Nome_evento";
             this.Nome_evento.Size = new System.Drawing.Size(146, 21);
             this.Nome_evento.TabIndex = 21;
@@ -180,7 +180,7 @@
             // 
             this.atrações.AutoSize = true;
             this.atrações.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.atrações.Location = new System.Drawing.Point(491, 304);
+            this.atrações.Location = new System.Drawing.Point(429, 303);
             this.atrações.Name = "atrações";
             this.atrações.Size = new System.Drawing.Size(86, 21);
             this.atrações.TabIndex = 20;
@@ -189,7 +189,7 @@
             // orcamentoAdmin_txtbox
             // 
             this.orcamentoAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orcamentoAdmin_txtbox.Location = new System.Drawing.Point(73, 44);
+            this.orcamentoAdmin_txtbox.Location = new System.Drawing.Point(11, 43);
             this.orcamentoAdmin_txtbox.Name = "orcamentoAdmin_txtbox";
             this.orcamentoAdmin_txtbox.Size = new System.Drawing.Size(258, 27);
             this.orcamentoAdmin_txtbox.TabIndex = 19;
@@ -198,7 +198,7 @@
             // 
             this.Orçamento.AutoSize = true;
             this.Orçamento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Orçamento.Location = new System.Drawing.Point(69, 20);
+            this.Orçamento.Location = new System.Drawing.Point(7, 19);
             this.Orçamento.Name = "Orçamento";
             this.Orçamento.Size = new System.Drawing.Size(106, 21);
             this.Orçamento.TabIndex = 18;
@@ -207,7 +207,7 @@
             // consultaAdmin_button
             // 
             this.consultaAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consultaAdmin_button.Location = new System.Drawing.Point(494, 391);
+            this.consultaAdmin_button.Location = new System.Drawing.Point(432, 390);
             this.consultaAdmin_button.Name = "consultaAdmin_button";
             this.consultaAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.consultaAdmin_button.TabIndex = 35;
@@ -217,7 +217,7 @@
             // editarAdmin_button
             // 
             this.editarAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editarAdmin_button.Location = new System.Drawing.Point(204, 450);
+            this.editarAdmin_button.Location = new System.Drawing.Point(142, 449);
             this.editarAdmin_button.Name = "editarAdmin_button";
             this.editarAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.editarAdmin_button.TabIndex = 36;
@@ -227,7 +227,7 @@
             // deletarAdmin_button
             // 
             this.deletarAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deletarAdmin_button.Location = new System.Drawing.Point(494, 450);
+            this.deletarAdmin_button.Location = new System.Drawing.Point(432, 449);
             this.deletarAdmin_button.Name = "deletarAdmin_button";
             this.deletarAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.deletarAdmin_button.TabIndex = 37;
@@ -239,7 +239,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(800, 508);
+            this.ClientSize = new System.Drawing.Size(684, 508);
             this.Controls.Add(this.deletarAdmin_button);
             this.Controls.Add(this.editarAdmin_button);
             this.Controls.Add(this.consultaAdmin_button);

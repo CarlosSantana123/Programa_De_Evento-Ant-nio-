@@ -16,5 +16,26 @@ namespace Programa_De_Evento__Antônio_
         {
             InitializeComponent();
         }
+
+        private void gerenciarEventosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Evento_ADMIN_().Show();
+        }
+
+        private void fornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Fornecedores_USUÁRIO().Show();
+        }
+
+        private void clientesUsuáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Consul().Show();
+        }
+
+        private void TelaInicio_button_Click(object sender, EventArgs e)
+        {
+            new Tela_Inicial().Show();
+            Hide();
+        }
     }
 }

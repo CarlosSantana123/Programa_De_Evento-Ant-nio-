@@ -227,7 +227,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(758, 409);
+            this.ClientSize = new System.Drawing.Size(758, 399);
             this.Controls.Add(this.btn_voltarFORN);
             this.Controls.Add(this.btn_excluirFORN);
             this.Controls.Add(this.btn_alterarFORN);

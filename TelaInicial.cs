@@ -27,26 +27,30 @@ namespace Programa_De_Evento__Antônio_
         private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new Tela_Ajuda().Show();
-            Hide();
+            
         }
 
         private void entrar_button_Click(object sender, EventArgs e)
         {
-            if(usuario_textbox.Text == "admin" && senha_textbox.Text == "123")
+            if (usuario_textbox.Text == "admin" && senha_textbox.Text == "123")
             {
-                MessageBox.Show("FOI!");
+                new MENUSTRIP_ADMIN_().Show();
+            }
+            else if (usuario_textbox.Text == " " || senha_textbox.Text == " ")
+            {
+
             }
             else
             {
                 new MENUSTRIP_CLIENTE_().Show();
             }
-            Close();
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             new Cadastro_de_Clientes().Show();
-            Hide();
+            
         }
 
         private void usuario_textbox_TextChanged(object sender, EventArgs e)

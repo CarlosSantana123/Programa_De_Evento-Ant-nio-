@@ -101,6 +101,12 @@
     <Compile Include="Cadastro de Clientes.Designer.cs">
       <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consul.Clientes [ADMIN].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consul.Clientes [ADMIN].Designer.cs">
+      <DependentUpon>Consul.Clientes [ADMIN].cs</DependentUpon>
+    </Compile>
     <Compile Include="Evento%28ADMIN%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,11 +125,11 @@
     <Compile Include="TelaInicial.Designer.cs">
       <DependentUpon>TelaInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fornecedores%28CLIENTE%29.cs">
+    <Compile Include="Fornecedores%28ADMIN%29.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fornecedores%28CLIENTE%29.Designer.cs">
-      <DependentUpon>Fornecedores%28CLIENTE%29.cs</DependentUpon>
+    <Compile Include="Fornecedores%28ADMIN%29.Designer.cs">
+      <DependentUpon>Fornecedores%28ADMIN%29.cs</DependentUpon>
     </Compile>
     <Compile Include="MENUSTRIP%28ADMIN%29cs.cs">
       <SubType>Form</SubType>
@@ -148,6 +154,9 @@
     <EmbeddedResource Include="Cadastro de Clientes.resx">
       <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consul.Clientes [ADMIN].resx">
+      <DependentUpon>Consul.Clientes [ADMIN].cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Evento%28ADMIN%29.resx">
       <DependentUpon>Evento%28ADMIN%29.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,8 +166,8 @@
     <EmbeddedResource Include="TelaInicial.resx">
       <DependentUpon>TelaInicial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fornecedores%28CLIENTE%29.resx">
-      <DependentUpon>Fornecedores%28CLIENTE%29.cs</DependentUpon>
+    <EmbeddedResource Include="Fornecedores%28ADMIN%29.resx">
+      <DependentUpon>Fornecedores%28ADMIN%29.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MENUSTRIP%28ADMIN%29cs.resx">
       <DependentUpon>MENUSTRIP%28ADMIN%29cs.cs</DependentUpon>

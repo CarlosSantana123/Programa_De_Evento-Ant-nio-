@@ -35,7 +35,7 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesUsuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TelaInicio_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +73,7 @@
             this.gerenciarEventosToolStripMenuItem.Name = "gerenciarEventosToolStripMenuItem";
             this.gerenciarEventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gerenciarEventosToolStripMenuItem.Text = "Gerenciar Eventos";
+            this.gerenciarEventosToolStripMenuItem.Click += new System.EventHandler(this.gerenciarEventosToolStripMenuItem_Click);
             // 
             // ajudaToolStripMenuItem
             // 
@@ -88,24 +89,27 @@
             this.fornecedoresToolStripMenuItem.Name = "fornecedoresToolStripMenuItem";
             this.fornecedoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fornecedoresToolStripMenuItem.Text = "Fornecedores";
+            this.fornecedoresToolStripMenuItem.Click += new System.EventHandler(this.fornecedoresToolStripMenuItem_Click);
             // 
             // clientesUsuáriosToolStripMenuItem
             // 
             this.clientesUsuáriosToolStripMenuItem.Name = "clientesUsuáriosToolStripMenuItem";
             this.clientesUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesUsuáriosToolStripMenuItem.Text = "Clientes/Usuários";
+            this.clientesUsuáriosToolStripMenuItem.Click += new System.EventHandler(this.clientesUsuáriosToolStripMenuItem_Click);
             // 
-            // button1
+            // TelaInicio_button
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(513, 351);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 29);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Voltar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.TelaInicio_button.BackColor = System.Drawing.Color.Tan;
+            this.TelaInicio_button.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TelaInicio_button.ForeColor = System.Drawing.Color.Transparent;
+            this.TelaInicio_button.Location = new System.Drawing.Point(249, 346);
+            this.TelaInicio_button.Name = "TelaInicio_button";
+            this.TelaInicio_button.Size = new System.Drawing.Size(100, 34);
+            this.TelaInicio_button.TabIndex = 10;
+            this.TelaInicio_button.Text = "-Tela Inicial-";
+            this.TelaInicio_button.UseVisualStyleBackColor = false;
+            this.TelaInicio_button.Click += new System.EventHandler(this.TelaInicio_button_Click);
             // 
             // MENUSTRIP_ADMIN_
             // 
@@ -114,8 +118,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(600, 392);
-            this.ControlBox = false;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.TelaInicio_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -139,6 +142,6 @@
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fornecedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientesUsuáriosToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button TelaInicio_button;
     }
 }

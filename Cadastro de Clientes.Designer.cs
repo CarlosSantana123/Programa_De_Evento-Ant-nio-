@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.criar_btn = new System.Windows.Forms.Button();
             this.cnpjj = new System.Windows.Forms.MaskedTextBox();
             this.cnpj = new System.Windows.Forms.Label();
@@ -44,21 +43,10 @@
             this.noome = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(445, 352);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 51);
-            this.button1.TabIndex = 138;
-            this.button1.Text = "Voltar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // criar_btn
             // 
             this.criar_btn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.criar_btn.Location = new System.Drawing.Point(28, 352);
+            this.criar_btn.Location = new System.Drawing.Point(237, 320);
             this.criar_btn.Name = "criar_btn";
             this.criar_btn.Size = new System.Drawing.Size(126, 51);
             this.criar_btn.TabIndex = 137;
@@ -194,8 +182,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(599, 447);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(599, 383);
             this.Controls.Add(this.criar_btn);
             this.Controls.Add(this.cnpjj);
             this.Controls.Add(this.cnpj);
@@ -221,8 +208,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button criar_btn;
         private System.Windows.Forms.MaskedTextBox cnpjj;
         private System.Windows.Forms.Label cnpj;

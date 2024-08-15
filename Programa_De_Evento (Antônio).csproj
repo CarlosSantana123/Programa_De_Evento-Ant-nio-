@@ -107,6 +107,12 @@
     <Compile Include="Consul.Clientes [ADMIN].Designer.cs">
       <DependentUpon>Consul.Clientes [ADMIN].cs</DependentUpon>
     </Compile>
+    <Compile Include="consultaClientesEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaClientesEventos.Designer.cs">
+      <DependentUpon>consultaClientesEventos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Evento%28ADMIN%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Consul.Clientes [ADMIN].resx">
       <DependentUpon>Consul.Clientes [ADMIN].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaClientesEventos.resx">
+      <DependentUpon>consultaClientesEventos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Evento%28ADMIN%29.resx">
       <DependentUpon>Evento%28ADMIN%29.cs</DependentUpon>

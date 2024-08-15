@@ -31,5 +31,16 @@ namespace Programa_De_Evento__Antônio_
         {
             new Tela_Ajuda().Show();
         }
+
+        private void consultarEventosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new consultaClientesEventos().Show();
+        }
+
+        private void TelaInicioCLIENTE_button_Click(object sender, EventArgs e)
+        {
+            new Tela_Inicial().Show();
+            Hide();
+        }
     }
 }

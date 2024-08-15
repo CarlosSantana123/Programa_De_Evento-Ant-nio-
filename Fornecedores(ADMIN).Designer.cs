@@ -251,7 +251,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Fornecedores_USUÁRIO";
-            this.Text = "Fornecedor";
+            this.Text = "Fornecedores";
             this.ResumeLayout(false);
             this.PerformLayout();
 

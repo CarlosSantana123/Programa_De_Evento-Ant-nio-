@@ -36,6 +36,7 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.TelaInicioCLIENTE_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +73,7 @@
             this.consultarEventosToolStripMenuItem.Name = "consultarEventosToolStripMenuItem";
             this.consultarEventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarEventosToolStripMenuItem.Text = "Consultar Eventos";
+            this.consultarEventosToolStripMenuItem.Click += new System.EventHandler(this.consultarEventosToolStripMenuItem_Click);
             // 
             // ajudaToolStripMenuItem
             // 
@@ -95,6 +97,19 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "-Nome do Programa-";
             // 
+            // TelaInicioCLIENTE_button
+            // 
+            this.TelaInicioCLIENTE_button.BackColor = System.Drawing.Color.Tan;
+            this.TelaInicioCLIENTE_button.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TelaInicioCLIENTE_button.ForeColor = System.Drawing.Color.Transparent;
+            this.TelaInicioCLIENTE_button.Location = new System.Drawing.Point(265, 369);
+            this.TelaInicioCLIENTE_button.Name = "TelaInicioCLIENTE_button";
+            this.TelaInicioCLIENTE_button.Size = new System.Drawing.Size(100, 34);
+            this.TelaInicioCLIENTE_button.TabIndex = 11;
+            this.TelaInicioCLIENTE_button.Text = "-Tela Inicial-";
+            this.TelaInicioCLIENTE_button.UseVisualStyleBackColor = false;
+            this.TelaInicioCLIENTE_button.Click += new System.EventHandler(this.TelaInicioCLIENTE_button_Click);
+            // 
             // MENUSTRIP_CLIENTE_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,6 +117,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(628, 415);
+            this.Controls.Add(this.TelaInicioCLIENTE_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -126,5 +142,6 @@
         private System.Windows.Forms.ToolStripMenuItem consultarEventosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button TelaInicioCLIENTE_button;
     }
 }

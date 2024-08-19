@@ -142,9 +142,9 @@
             this.nome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nome.Location = new System.Drawing.Point(42, 44);
             this.nome.Name = "nome";
-            this.nome.Size = new System.Drawing.Size(61, 21);
+            this.nome.Size = new System.Drawing.Size(120, 21);
             this.nome.TabIndex = 126;
-            this.nome.Text = "Nome:";
+            this.nome.Text = "Nome/Usuário";
             // 
             // noome
             // 

@@ -76,9 +76,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(188, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 21);
+            this.label2.Size = new System.Drawing.Size(124, 21);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Usuário:";
+            this.label2.Text = "Nome/Usuário:";
             // 
             // usuario_textbox
             // 

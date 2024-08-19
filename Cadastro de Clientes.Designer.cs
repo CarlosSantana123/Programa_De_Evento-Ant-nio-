@@ -32,15 +32,15 @@
             this.cnpjj = new System.Windows.Forms.MaskedTextBox();
             this.cnpj = new System.Windows.Forms.Label();
             this.DNN = new System.Windows.Forms.MaskedTextBox();
-            this.cpff = new System.Windows.Forms.MaskedTextBox();
             this.telee = new System.Windows.Forms.MaskedTextBox();
             this.tele = new System.Windows.Forms.Label();
-            this.CPF = new System.Windows.Forms.Label();
             this.DN = new System.Windows.Forms.Label();
             this.repree = new System.Windows.Forms.TextBox();
             this.repre = new System.Windows.Forms.Label();
             this.nome = new System.Windows.Forms.Label();
             this.noome = new System.Windows.Forms.TextBox();
+            this.senha_txtbox = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // criar_btn
@@ -58,10 +58,9 @@
             // 
             this.cnpjj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.cnpjj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpjj.Location = new System.Drawing.Point(367, 228);
-            this.cnpjj.Mask = "99,999,999/0009-99";
+            this.cnpjj.Location = new System.Drawing.Point(367, 135);
             this.cnpjj.Name = "cnpjj";
-            this.cnpjj.Size = new System.Drawing.Size(182, 27);
+            this.cnpjj.Size = new System.Drawing.Size(206, 27);
             this.cnpjj.TabIndex = 136;
             this.cnpjj.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Mskcnpjj_MaskInputRejected);
             // 
@@ -70,11 +69,11 @@
             this.cnpj.AutoSize = true;
             this.cnpj.BackColor = System.Drawing.Color.Transparent;
             this.cnpj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpj.Location = new System.Drawing.Point(361, 204);
+            this.cnpj.Location = new System.Drawing.Point(361, 111);
             this.cnpj.Name = "cnpj";
-            this.cnpj.Size = new System.Drawing.Size(56, 21);
+            this.cnpj.Size = new System.Drawing.Size(93, 21);
             this.cnpj.TabIndex = 135;
-            this.cnpj.Text = "CNPJ:";
+            this.cnpj.Text = "CNPJ/CPF:";
             // 
             // DNN
             // 
@@ -87,21 +86,11 @@
             this.DNN.TabIndex = 134;
             this.DNN.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.DNN_MaskInputRejected);
             // 
-            // cpff
-            // 
-            this.cpff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpff.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cpff.Location = new System.Drawing.Point(367, 135);
-            this.cpff.Mask = "999,999,999-99";
-            this.cpff.Name = "cpff";
-            this.cpff.Size = new System.Drawing.Size(182, 27);
-            this.cpff.TabIndex = 133;
-            // 
             // telee
             // 
             this.telee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.telee.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.telee.Location = new System.Drawing.Point(46, 228);
+            this.telee.Location = new System.Drawing.Point(156, 201);
             this.telee.Mask = "00/00/0000";
             this.telee.Name = "telee";
             this.telee.Size = new System.Drawing.Size(102, 27);
@@ -118,21 +107,11 @@
             this.tele.TabIndex = 131;
             this.tele.Text = "Telefone:";
             // 
-            // CPF
-            // 
-            this.CPF.AutoSize = true;
-            this.CPF.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CPF.Location = new System.Drawing.Point(361, 111);
-            this.CPF.Name = "CPF";
-            this.CPF.Size = new System.Drawing.Size(44, 21);
-            this.CPF.TabIndex = 130;
-            this.CPF.Text = "CPF:";
-            // 
             // DN
             // 
             this.DN.AutoSize = true;
             this.DN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DN.Location = new System.Drawing.Point(40, 177);
+            this.DN.Location = new System.Drawing.Point(42, 186);
             this.DN.Name = "DN";
             this.DN.Size = new System.Drawing.Size(108, 42);
             this.DN.TabIndex = 129;
@@ -161,7 +140,7 @@
             // 
             this.nome.AutoSize = true;
             this.nome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome.Location = new System.Drawing.Point(40, 44);
+            this.nome.Location = new System.Drawing.Point(42, 44);
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(61, 21);
             this.nome.TabIndex = 126;
@@ -171,10 +150,30 @@
             // 
             this.noome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.noome.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noome.Location = new System.Drawing.Point(45, 68);
+            this.noome.Location = new System.Drawing.Point(47, 68);
             this.noome.Name = "noome";
             this.noome.Size = new System.Drawing.Size(211, 29);
             this.noome.TabIndex = 125;
+            // 
+            // senha_txtbox
+            // 
+            this.senha_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.senha_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.senha_txtbox.Location = new System.Drawing.Point(367, 201);
+            this.senha_txtbox.Name = "senha_txtbox";
+            this.senha_txtbox.Size = new System.Drawing.Size(206, 27);
+            this.senha_txtbox.TabIndex = 138;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(363, 177);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 21);
+            this.label1.TabIndex = 139;
+            this.label1.Text = "Senha";
             // 
             // Cadastro_de_Clientes
             // 
@@ -183,14 +182,14 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(599, 383);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.senha_txtbox);
             this.Controls.Add(this.criar_btn);
             this.Controls.Add(this.cnpjj);
             this.Controls.Add(this.cnpj);
             this.Controls.Add(this.DNN);
-            this.Controls.Add(this.cpff);
             this.Controls.Add(this.telee);
             this.Controls.Add(this.tele);
-            this.Controls.Add(this.CPF);
             this.Controls.Add(this.DN);
             this.Controls.Add(this.repree);
             this.Controls.Add(this.repre);
@@ -212,14 +211,14 @@
         private System.Windows.Forms.MaskedTextBox cnpjj;
         private System.Windows.Forms.Label cnpj;
         private System.Windows.Forms.MaskedTextBox DNN;
-        private System.Windows.Forms.MaskedTextBox cpff;
         private System.Windows.Forms.MaskedTextBox telee;
         private System.Windows.Forms.Label tele;
-        private System.Windows.Forms.Label CPF;
         private System.Windows.Forms.Label DN;
         private System.Windows.Forms.TextBox repree;
         private System.Windows.Forms.Label repre;
         private System.Windows.Forms.Label nome;
         private System.Windows.Forms.TextBox noome;
+        private System.Windows.Forms.MaskedTextBox senha_txtbox;
+        private System.Windows.Forms.Label label1;
     }
 }

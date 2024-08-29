@@ -16,5 +16,10 @@ namespace Programa_De_Evento__Antônio_
         {
             InitializeComponent();
         }
+
+        private void nome_ADMIN_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

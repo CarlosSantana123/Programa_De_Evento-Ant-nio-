@@ -45,6 +45,8 @@
             this.fornecedor_txtbox = new System.Windows.Forms.TextBox();
             this.Atracao_txtbox = new System.Windows.Forms.TextBox();
             this.criarEvento_button = new System.Windows.Forms.Button();
+            this.tipoEventoCLIENTE_txtbox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Orçamento
@@ -194,12 +196,30 @@
             // criarEvento_button
             // 
             this.criarEvento_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.criarEvento_button.Location = new System.Drawing.Point(306, 386);
+            this.criarEvento_button.Location = new System.Drawing.Point(294, 463);
             this.criarEvento_button.Name = "criarEvento_button";
             this.criarEvento_button.Size = new System.Drawing.Size(127, 46);
             this.criarEvento_button.TabIndex = 17;
             this.criarEvento_button.Text = "Criar";
             this.criarEvento_button.UseVisualStyleBackColor = true;
+            // 
+            // tipoEventoCLIENTE_txtbox
+            // 
+            this.tipoEventoCLIENTE_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipoEventoCLIENTE_txtbox.Location = new System.Drawing.Point(21, 417);
+            this.tipoEventoCLIENTE_txtbox.Name = "tipoEventoCLIENTE_txtbox";
+            this.tipoEventoCLIENTE_txtbox.Size = new System.Drawing.Size(259, 27);
+            this.tipoEventoCLIENTE_txtbox.TabIndex = 19;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(18, 393);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 21);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Tipo do Evento:";
             // 
             // Evento
             // 
@@ -207,7 +227,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(708, 444);
+            this.ClientSize = new System.Drawing.Size(708, 521);
+            this.Controls.Add(this.tipoEventoCLIENTE_txtbox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.criarEvento_button);
             this.Controls.Add(this.Atracao_txtbox);
             this.Controls.Add(this.fornecedor_txtbox);
@@ -254,5 +276,7 @@
         private System.Windows.Forms.TextBox fornecedor_txtbox;
         private System.Windows.Forms.TextBox Atracao_txtbox;
         private System.Windows.Forms.Button criarEvento_button;
+        private System.Windows.Forms.TextBox tipoEventoCLIENTE_txtbox;
+        private System.Windows.Forms.Label label2;
     }
 }

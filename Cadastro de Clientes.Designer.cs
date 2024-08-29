@@ -125,6 +125,7 @@
             this.repree.Name = "repree";
             this.repree.Size = new System.Drawing.Size(210, 29);
             this.repree.TabIndex = 128;
+            this.repree.TextChanged += new System.EventHandler(this.repree_TextChanged);
             // 
             // repre
             // 

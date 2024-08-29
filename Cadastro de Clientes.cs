@@ -47,5 +47,10 @@ namespace Programa_De_Evento__Antônio_
         {
 
         }
+
+        private void repree_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

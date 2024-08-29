@@ -175,6 +175,7 @@
             this.nome_ADMIN_txtbox.Name = "nome_ADMIN_txtbox";
             this.nome_ADMIN_txtbox.Size = new System.Drawing.Size(211, 29);
             this.nome_ADMIN_txtbox.TabIndex = 138;
+            this.nome_ADMIN_txtbox.TextChanged += new System.EventHandler(this.nome_ADMIN_txtbox_TextChanged);
             // 
             // editar_ADMIN_button
             // 

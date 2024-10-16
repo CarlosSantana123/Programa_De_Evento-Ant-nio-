@@ -59,6 +59,7 @@
             this.btn_voltarFORN.TabIndex = 37;
             this.btn_voltarFORN.Text = "VOLTAR";
             this.btn_voltarFORN.UseVisualStyleBackColor = true;
+            this.btn_voltarFORN.Click += new System.EventHandler(this.btn_voltarFORN_Click);
             // 
             // btn_excluirFORN
             // 
@@ -69,6 +70,7 @@
             this.btn_excluirFORN.TabIndex = 36;
             this.btn_excluirFORN.Text = "EXCLUIR";
             this.btn_excluirFORN.UseVisualStyleBackColor = true;
+            this.btn_excluirFORN.Click += new System.EventHandler(this.btn_excluirFORN_Click);
             // 
             // btn_alterarFORN
             // 
@@ -80,6 +82,7 @@
             this.btn_alterarFORN.TabIndex = 35;
             this.btn_alterarFORN.Text = "ALTERAR";
             this.btn_alterarFORN.UseVisualStyleBackColor = true;
+            this.btn_alterarFORN.Click += new System.EventHandler(this.btn_alterarFORN_Click);
             // 
             // btn_consulFORN
             // 
@@ -91,6 +94,7 @@
             this.btn_consulFORN.TabIndex = 34;
             this.btn_consulFORN.Text = "CONSULTAR";
             this.btn_consulFORN.UseVisualStyleBackColor = true;
+            this.btn_consulFORN.Click += new System.EventHandler(this.btn_consulFORN_Click);
             // 
             // btn_inserirFORN
             // 
@@ -101,6 +105,7 @@
             this.btn_inserirFORN.TabIndex = 33;
             this.btn_inserirFORN.Text = "INSERIR";
             this.btn_inserirFORN.UseVisualStyleBackColor = true;
+            this.btn_inserirFORN.Click += new System.EventHandler(this.btn_inserirFORN_Click);
             // 
             // razaosocialFORN_txtbox
             // 

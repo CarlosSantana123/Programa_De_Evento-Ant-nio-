@@ -16,5 +16,10 @@ namespace Programa_De_Evento__Antônio_
         {
             InitializeComponent();
         }
+
+        private void consultaAdmin_button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

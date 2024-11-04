@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.criar_ADMIN_button = new System.Windows.Forms.Button();
-            this.cnpj_ADMIN_txtbox = new System.Windows.Forms.MaskedTextBox();
-            this.cnpj = new System.Windows.Forms.Label();
             this.telefone_ADMIN_txtbox = new System.Windows.Forms.MaskedTextBox();
             this.cpf_ADMIN_txtbox = new System.Windows.Forms.MaskedTextBox();
             this.data_ADMIN_txtbox = new System.Windows.Forms.MaskedTextBox();
@@ -44,6 +42,8 @@
             this.editar_ADMIN_button = new System.Windows.Forms.Button();
             this.deletar_ADMIN_button = new System.Windows.Forms.Button();
             this.consultar_ADMIN_button = new System.Windows.Forms.Button();
+            this.cnpj = new System.Windows.Forms.Label();
+            this.senha_txtbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // criar_ADMIN_button
@@ -55,27 +55,7 @@
             this.criar_ADMIN_button.TabIndex = 150;
             this.criar_ADMIN_button.Text = "Criar";
             this.criar_ADMIN_button.UseVisualStyleBackColor = true;
-            // 
-            // cnpj_ADMIN_txtbox
-            // 
-            this.cnpj_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cnpj_ADMIN_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpj_ADMIN_txtbox.Location = new System.Drawing.Point(368, 203);
-            this.cnpj_ADMIN_txtbox.Mask = "99,999,999/0009-99";
-            this.cnpj_ADMIN_txtbox.Name = "cnpj_ADMIN_txtbox";
-            this.cnpj_ADMIN_txtbox.Size = new System.Drawing.Size(182, 27);
-            this.cnpj_ADMIN_txtbox.TabIndex = 149;
-            // 
-            // cnpj
-            // 
-            this.cnpj.AutoSize = true;
-            this.cnpj.BackColor = System.Drawing.Color.Transparent;
-            this.cnpj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpj.Location = new System.Drawing.Point(362, 179);
-            this.cnpj.Name = "cnpj";
-            this.cnpj.Size = new System.Drawing.Size(56, 21);
-            this.cnpj.TabIndex = 148;
-            this.cnpj.Text = "CNPJ:";
+            this.criar_ADMIN_button.Click += new System.EventHandler(this.criar_ADMIN_button_Click);
             // 
             // telefone_ADMIN_txtbox
             // 
@@ -186,6 +166,7 @@
             this.editar_ADMIN_button.TabIndex = 151;
             this.editar_ADMIN_button.Text = "Editar";
             this.editar_ADMIN_button.UseVisualStyleBackColor = true;
+            this.editar_ADMIN_button.Click += new System.EventHandler(this.editar_ADMIN_button_Click);
             // 
             // deletar_ADMIN_button
             // 
@@ -196,6 +177,7 @@
             this.deletar_ADMIN_button.TabIndex = 152;
             this.deletar_ADMIN_button.Text = "Deletar";
             this.deletar_ADMIN_button.UseVisualStyleBackColor = true;
+            this.deletar_ADMIN_button.Click += new System.EventHandler(this.deletar_ADMIN_button_Click);
             // 
             // consultar_ADMIN_button
             // 
@@ -206,6 +188,27 @@
             this.consultar_ADMIN_button.TabIndex = 153;
             this.consultar_ADMIN_button.Text = "Consultar";
             this.consultar_ADMIN_button.UseVisualStyleBackColor = true;
+            this.consultar_ADMIN_button.Click += new System.EventHandler(this.consultar_ADMIN_button_Click);
+            // 
+            // cnpj
+            // 
+            this.cnpj.AutoSize = true;
+            this.cnpj.BackColor = System.Drawing.Color.Transparent;
+            this.cnpj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cnpj.Location = new System.Drawing.Point(362, 179);
+            this.cnpj.Name = "cnpj";
+            this.cnpj.Size = new System.Drawing.Size(59, 21);
+            this.cnpj.TabIndex = 148;
+            this.cnpj.Text = "Senha";
+            // 
+            // senha_txtbox
+            // 
+            this.senha_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.senha_txtbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.senha_txtbox.Location = new System.Drawing.Point(366, 203);
+            this.senha_txtbox.Name = "senha_txtbox";
+            this.senha_txtbox.Size = new System.Drawing.Size(211, 29);
+            this.senha_txtbox.TabIndex = 154;
             // 
             // Consul
             // 
@@ -213,11 +216,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(595, 443);
+            this.Controls.Add(this.senha_txtbox);
             this.Controls.Add(this.consultar_ADMIN_button);
             this.Controls.Add(this.deletar_ADMIN_button);
             this.Controls.Add(this.editar_ADMIN_button);
             this.Controls.Add(this.criar_ADMIN_button);
-            this.Controls.Add(this.cnpj_ADMIN_txtbox);
             this.Controls.Add(this.cnpj);
             this.Controls.Add(this.telefone_ADMIN_txtbox);
             this.Controls.Add(this.cpf_ADMIN_txtbox);
@@ -242,8 +245,6 @@
         #endregion
 
         private System.Windows.Forms.Button criar_ADMIN_button;
-        private System.Windows.Forms.MaskedTextBox cnpj_ADMIN_txtbox;
-        private System.Windows.Forms.Label cnpj;
         private System.Windows.Forms.MaskedTextBox telefone_ADMIN_txtbox;
         private System.Windows.Forms.MaskedTextBox cpf_ADMIN_txtbox;
         private System.Windows.Forms.MaskedTextBox data_ADMIN_txtbox;
@@ -257,5 +258,7 @@
         private System.Windows.Forms.Button editar_ADMIN_button;
         private System.Windows.Forms.Button deletar_ADMIN_button;
         private System.Windows.Forms.Button consultar_ADMIN_button;
+        private System.Windows.Forms.Label cnpj;
+        private System.Windows.Forms.TextBox senha_txtbox;
     }
 }

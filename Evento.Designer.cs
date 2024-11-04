@@ -202,6 +202,7 @@
             this.criarEvento_button.TabIndex = 17;
             this.criarEvento_button.Text = "Criar";
             this.criarEvento_button.UseVisualStyleBackColor = true;
+            this.criarEvento_button.Click += new System.EventHandler(this.criarEvento_button_Click);
             // 
             // tipoEventoCLIENTE_txtbox
             // 

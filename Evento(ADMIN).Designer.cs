@@ -111,7 +111,7 @@
             // horaAdmin_txtBox
             // 
             this.horaAdmin_txtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.horaAdmin_txtBox.Location = new System.Drawing.Point(432, 226);
+            this.horaAdmin_txtBox.Location = new System.Drawing.Point(432, 229);
             this.horaAdmin_txtBox.Name = "horaAdmin_txtBox";
             this.horaAdmin_txtBox.Size = new System.Drawing.Size(238, 27);
             this.horaAdmin_txtBox.TabIndex = 27;
@@ -160,7 +160,7 @@
             // 
             this.Hora.AutoSize = true;
             this.Hora.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hora.Location = new System.Drawing.Point(429, 205);
+            this.Hora.Location = new System.Drawing.Point(428, 205);
             this.Hora.Name = "Hora";
             this.Hora.Size = new System.Drawing.Size(51, 21);
             this.Hora.TabIndex = 22;
@@ -213,6 +213,7 @@
             this.consultaAdmin_button.TabIndex = 35;
             this.consultaAdmin_button.Text = "Consulta";
             this.consultaAdmin_button.UseVisualStyleBackColor = true;
+            this.consultaAdmin_button.Click += new System.EventHandler(this.consultaAdmin_button_Click);
             // 
             // editarAdmin_button
             // 

@@ -200,6 +200,7 @@
             this.consultarCONSULCLIENTES_button.TabIndex = 33;
             this.consultarCONSULCLIENTES_button.Text = "Consultar";
             this.consultarCONSULCLIENTES_button.UseVisualStyleBackColor = true;
+            this.consultarCONSULCLIENTES_button.Click += new System.EventHandler(this.consultarCONSULCLIENTES_button_Click);
             // 
             // consultaClientesEventos
             // 

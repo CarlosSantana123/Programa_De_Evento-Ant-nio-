@@ -53,7 +53,7 @@
             // 
             this.Orçamento.AutoSize = true;
             this.Orçamento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Orçamento.Location = new System.Drawing.Point(18, 21);
+            this.Orçamento.Location = new System.Drawing.Point(440, 110);
             this.Orçamento.Name = "Orçamento";
             this.Orçamento.Size = new System.Drawing.Size(106, 21);
             this.Orçamento.TabIndex = 0;
@@ -62,9 +62,9 @@
             // orcamento_txtbox
             // 
             this.orcamento_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orcamento_txtbox.Location = new System.Drawing.Point(22, 45);
+            this.orcamento_txtbox.Location = new System.Drawing.Point(444, 134);
             this.orcamento_txtbox.Name = "orcamento_txtbox";
-            this.orcamento_txtbox.Size = new System.Drawing.Size(258, 27);
+            this.orcamento_txtbox.Size = new System.Drawing.Size(226, 27);
             this.orcamento_txtbox.TabIndex = 1;
             // 
             // atrações
@@ -81,7 +81,7 @@
             // 
             this.Nome_evento.AutoSize = true;
             this.Nome_evento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_evento.Location = new System.Drawing.Point(440, 110);
+            this.Nome_evento.Location = new System.Drawing.Point(21, 21);
             this.Nome_evento.Name = "Nome_evento";
             this.Nome_evento.Size = new System.Drawing.Size(146, 21);
             this.Nome_evento.TabIndex = 3;
@@ -148,9 +148,9 @@
             // nomeEvento_txtbox
             // 
             this.nomeEvento_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nomeEvento_txtbox.Location = new System.Drawing.Point(443, 134);
+            this.nomeEvento_txtbox.Location = new System.Drawing.Point(24, 45);
             this.nomeEvento_txtbox.Name = "nomeEvento_txtbox";
-            this.nomeEvento_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.nomeEvento_txtbox.Size = new System.Drawing.Size(256, 27);
             this.nomeEvento_txtbox.TabIndex = 11;
             // 
             // numeroPessoas_txtbox

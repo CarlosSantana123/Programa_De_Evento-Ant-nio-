@@ -48,17 +48,20 @@
             this.consultaAdmin_button = new System.Windows.Forms.Button();
             this.editarAdmin_button = new System.Windows.Forms.Button();
             this.deletarAdmin_button = new System.Windows.Forms.Button();
+            this.tipo_eventoADMIN_txtbox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // criarEventoAdmin_button
             // 
             this.criarEventoAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.criarEventoAdmin_button.Location = new System.Drawing.Point(142, 390);
+            this.criarEventoAdmin_button.Location = new System.Drawing.Point(143, 477);
             this.criarEventoAdmin_button.Name = "criarEventoAdmin_button";
             this.criarEventoAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.criarEventoAdmin_button.TabIndex = 34;
             this.criarEventoAdmin_button.Text = "Criar";
             this.criarEventoAdmin_button.UseVisualStyleBackColor = true;
+            this.criarEventoAdmin_button.Click += new System.EventHandler(this.criarEventoAdmin_button_Click);
             // 
             // atracaoAdmin_txtbox
             // 
@@ -103,9 +106,9 @@
             // nome_eventoAdmin_txtbox
             // 
             this.nome_eventoAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome_eventoAdmin_txtbox.Location = new System.Drawing.Point(432, 132);
+            this.nome_eventoAdmin_txtbox.Location = new System.Drawing.Point(10, 43);
             this.nome_eventoAdmin_txtbox.Name = "nome_eventoAdmin_txtbox";
-            this.nome_eventoAdmin_txtbox.Size = new System.Drawing.Size(238, 27);
+            this.nome_eventoAdmin_txtbox.Size = new System.Drawing.Size(258, 27);
             this.nome_eventoAdmin_txtbox.TabIndex = 28;
             // 
             // horaAdmin_txtBox
@@ -170,7 +173,7 @@
             // 
             this.Nome_evento.AutoSize = true;
             this.Nome_evento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome_evento.Location = new System.Drawing.Point(429, 108);
+            this.Nome_evento.Location = new System.Drawing.Point(7, 19);
             this.Nome_evento.Name = "Nome_evento";
             this.Nome_evento.Size = new System.Drawing.Size(146, 21);
             this.Nome_evento.TabIndex = 21;
@@ -189,16 +192,17 @@
             // orcamentoAdmin_txtbox
             // 
             this.orcamentoAdmin_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orcamentoAdmin_txtbox.Location = new System.Drawing.Point(11, 43);
+            this.orcamentoAdmin_txtbox.Location = new System.Drawing.Point(430, 132);
             this.orcamentoAdmin_txtbox.Name = "orcamentoAdmin_txtbox";
-            this.orcamentoAdmin_txtbox.Size = new System.Drawing.Size(258, 27);
+            this.orcamentoAdmin_txtbox.Size = new System.Drawing.Size(240, 27);
             this.orcamentoAdmin_txtbox.TabIndex = 19;
+            this.orcamentoAdmin_txtbox.TextChanged += new System.EventHandler(this.orcamentoAdmin_txtbox_TextChanged);
             // 
             // Orçamento
             // 
             this.Orçamento.AutoSize = true;
             this.Orçamento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Orçamento.Location = new System.Drawing.Point(7, 19);
+            this.Orçamento.Location = new System.Drawing.Point(426, 108);
             this.Orçamento.Name = "Orçamento";
             this.Orçamento.Size = new System.Drawing.Size(106, 21);
             this.Orçamento.TabIndex = 18;
@@ -207,7 +211,7 @@
             // consultaAdmin_button
             // 
             this.consultaAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consultaAdmin_button.Location = new System.Drawing.Point(432, 390);
+            this.consultaAdmin_button.Location = new System.Drawing.Point(433, 477);
             this.consultaAdmin_button.Name = "consultaAdmin_button";
             this.consultaAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.consultaAdmin_button.TabIndex = 35;
@@ -218,29 +222,51 @@
             // editarAdmin_button
             // 
             this.editarAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editarAdmin_button.Location = new System.Drawing.Point(142, 449);
+            this.editarAdmin_button.Location = new System.Drawing.Point(143, 536);
             this.editarAdmin_button.Name = "editarAdmin_button";
             this.editarAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.editarAdmin_button.TabIndex = 36;
             this.editarAdmin_button.Text = "Editar";
             this.editarAdmin_button.UseVisualStyleBackColor = true;
+            this.editarAdmin_button.Click += new System.EventHandler(this.editarAdmin_button_Click);
             // 
             // deletarAdmin_button
             // 
             this.deletarAdmin_button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deletarAdmin_button.Location = new System.Drawing.Point(432, 449);
+            this.deletarAdmin_button.Location = new System.Drawing.Point(433, 536);
             this.deletarAdmin_button.Name = "deletarAdmin_button";
             this.deletarAdmin_button.Size = new System.Drawing.Size(127, 46);
             this.deletarAdmin_button.TabIndex = 37;
             this.deletarAdmin_button.Text = "Deletar";
             this.deletarAdmin_button.UseVisualStyleBackColor = true;
+            this.deletarAdmin_button.Click += new System.EventHandler(this.deletarAdmin_button_Click);
+            // 
+            // tipo_eventoADMIN_txtbox
+            // 
+            this.tipo_eventoADMIN_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipo_eventoADMIN_txtbox.Location = new System.Drawing.Point(12, 418);
+            this.tipo_eventoADMIN_txtbox.Name = "tipo_eventoADMIN_txtbox";
+            this.tipo_eventoADMIN_txtbox.Size = new System.Drawing.Size(256, 27);
+            this.tipo_eventoADMIN_txtbox.TabIndex = 39;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(9, 394);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(127, 21);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Tipo de Evento";
             // 
             // Evento_ADMIN_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(684, 508);
+            this.ClientSize = new System.Drawing.Size(687, 626);
+            this.Controls.Add(this.tipo_eventoADMIN_txtbox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.deletarAdmin_button);
             this.Controls.Add(this.editarAdmin_button);
             this.Controls.Add(this.consultaAdmin_button);
@@ -291,5 +317,7 @@
         private System.Windows.Forms.Button consultaAdmin_button;
         private System.Windows.Forms.Button editarAdmin_button;
         private System.Windows.Forms.Button deletarAdmin_button;
+        private System.Windows.Forms.TextBox tipo_eventoADMIN_txtbox;
+        private System.Windows.Forms.Label label2;
     }
 }

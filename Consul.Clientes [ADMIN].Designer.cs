@@ -61,7 +61,7 @@
             // 
             this.telefone_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.telefone_ADMIN_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.telefone_ADMIN_txtbox.Location = new System.Drawing.Point(368, 43);
+            this.telefone_ADMIN_txtbox.Location = new System.Drawing.Point(368, 54);
             this.telefone_ADMIN_txtbox.Mask = "(99) 0000-0000";
             this.telefone_ADMIN_txtbox.Name = "telefone_ADMIN_txtbox";
             this.telefone_ADMIN_txtbox.Size = new System.Drawing.Size(182, 27);
@@ -71,7 +71,7 @@
             // 
             this.cpf_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.cpf_ADMIN_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cpf_ADMIN_txtbox.Location = new System.Drawing.Point(368, 110);
+            this.cpf_ADMIN_txtbox.Location = new System.Drawing.Point(368, 121);
             this.cpf_ADMIN_txtbox.Mask = "999,999,999-99";
             this.cpf_ADMIN_txtbox.Name = "cpf_ADMIN_txtbox";
             this.cpf_ADMIN_txtbox.Size = new System.Drawing.Size(182, 27);
@@ -81,7 +81,7 @@
             // 
             this.data_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.data_ADMIN_txtbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.data_ADMIN_txtbox.Location = new System.Drawing.Point(47, 203);
+            this.data_ADMIN_txtbox.Location = new System.Drawing.Point(47, 214);
             this.data_ADMIN_txtbox.Mask = "00/00/0000";
             this.data_ADMIN_txtbox.Name = "data_ADMIN_txtbox";
             this.data_ADMIN_txtbox.Size = new System.Drawing.Size(102, 27);
@@ -92,7 +92,7 @@
             // 
             this.tele.AutoSize = true;
             this.tele.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tele.Location = new System.Drawing.Point(362, 19);
+            this.tele.Location = new System.Drawing.Point(362, 30);
             this.tele.Name = "tele";
             this.tele.Size = new System.Drawing.Size(80, 21);
             this.tele.TabIndex = 144;
@@ -102,7 +102,7 @@
             // 
             this.CPF.AutoSize = true;
             this.CPF.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CPF.Location = new System.Drawing.Point(362, 86);
+            this.CPF.Location = new System.Drawing.Point(362, 97);
             this.CPF.Name = "CPF";
             this.CPF.Size = new System.Drawing.Size(44, 21);
             this.CPF.TabIndex = 143;
@@ -112,7 +112,7 @@
             // 
             this.DN.AutoSize = true;
             this.DN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DN.Location = new System.Drawing.Point(41, 152);
+            this.DN.Location = new System.Drawing.Point(41, 163);
             this.DN.Name = "DN";
             this.DN.Size = new System.Drawing.Size(108, 42);
             this.DN.TabIndex = 142;
@@ -122,7 +122,7 @@
             // 
             this.representante_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.representante_ADMIN_txtbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.representante_ADMIN_txtbox.Location = new System.Drawing.Point(47, 110);
+            this.representante_ADMIN_txtbox.Location = new System.Drawing.Point(47, 121);
             this.representante_ADMIN_txtbox.Name = "representante_ADMIN_txtbox";
             this.representante_ADMIN_txtbox.Size = new System.Drawing.Size(210, 29);
             this.representante_ADMIN_txtbox.TabIndex = 141;
@@ -131,7 +131,7 @@
             // 
             this.repre.AutoSize = true;
             this.repre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.repre.Location = new System.Drawing.Point(41, 86);
+            this.repre.Location = new System.Drawing.Point(41, 97);
             this.repre.Name = "repre";
             this.repre.Size = new System.Drawing.Size(131, 21);
             this.repre.TabIndex = 140;
@@ -141,7 +141,7 @@
             // 
             this.nome.AutoSize = true;
             this.nome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome.Location = new System.Drawing.Point(41, 19);
+            this.nome.Location = new System.Drawing.Point(41, 30);
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(61, 21);
             this.nome.TabIndex = 139;
@@ -151,7 +151,7 @@
             // 
             this.nome_ADMIN_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nome_ADMIN_txtbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nome_ADMIN_txtbox.Location = new System.Drawing.Point(46, 43);
+            this.nome_ADMIN_txtbox.Location = new System.Drawing.Point(46, 54);
             this.nome_ADMIN_txtbox.Name = "nome_ADMIN_txtbox";
             this.nome_ADMIN_txtbox.Size = new System.Drawing.Size(211, 29);
             this.nome_ADMIN_txtbox.TabIndex = 138;
@@ -195,7 +195,7 @@
             this.cnpj.AutoSize = true;
             this.cnpj.BackColor = System.Drawing.Color.Transparent;
             this.cnpj.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnpj.Location = new System.Drawing.Point(362, 179);
+            this.cnpj.Location = new System.Drawing.Point(362, 190);
             this.cnpj.Name = "cnpj";
             this.cnpj.Size = new System.Drawing.Size(59, 21);
             this.cnpj.TabIndex = 148;
@@ -205,9 +205,9 @@
             // 
             this.senha_txtbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.senha_txtbox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.senha_txtbox.Location = new System.Drawing.Point(366, 203);
+            this.senha_txtbox.Location = new System.Drawing.Point(366, 214);
             this.senha_txtbox.Name = "senha_txtbox";
-            this.senha_txtbox.Size = new System.Drawing.Size(211, 29);
+            this.senha_txtbox.Size = new System.Drawing.Size(184, 29);
             this.senha_txtbox.TabIndex = 154;
             // 
             // Consul
